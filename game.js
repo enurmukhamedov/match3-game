@@ -128,4 +128,9 @@ function checkMatches() {
     }
 }
 
+// Добавляем пустую функцию update(), чтобы не было ошибки
+function update() {
+    // Пока обновление не требуется, но Phaser требует её наличия
+}
+
 game = new Phaser.Game(config);
